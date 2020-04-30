@@ -1,0 +1,417 @@
+----------------------------------------------------------------------
+
+Tue Apr 21 19:52:39 2020
+
+
+Application has crashed: access violation
+
+-------------------------------
+
+Callstack:
+
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+
+
+-------------------------------
+
+Current thread: Main
+
+-------------------------------
+
+System information:
+	Application version : 1.94.862
+	CPU : AMD Ryzen 5 2600 Six-Core Processor (6 cores); SSE; SSE2; SSE3; SSSE3; SSE4.1
+	DirectX : 12.0 
+	GPU : NVIDIA GeForce RTX 2060 / nvldumd.dll[26.21.14.4250]
+	Language : russian
+	Memory :     16331MB 540KB
+	OS : 6.2.9200 () 0x100-0x1 (64 bits)
+	Physics : threaded
+	Renderer : DX9 threaded
+	Sound : Realtek Semiconductor Corp. (Динамики (Realtek(R) Audio))
+
+
+
+----------------------------------------------------------------------
+
+Wed Apr 29 20:47:07 2020
+
+
+Application has crashed: access violation
+
+-------------------------------
+
+Callstack:
+
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+
+
+-------------------------------
+
+Current thread: Main
+Script stack:
+                        init()  lib/units/enemies/cop/actions/full_body/copactionhurt.lua:258  
+                         new()  core/lib/utils/coreclass.lua:35                     
+              action_request()  lib/units/enemies/cop/copmovement.lua:981           
+              action_request()  lib/units/enemies/cop/huskcopmovement.lua:47        
+                        clbk()  lib/units/enemies/cop/copmovement.lua:1835          
+                        call()  lib/utils/eventlistenerholder.lua:34                
+             _call_listeners()  lib/units/enemies/cop/copdamage.lua:3139            
+         _on_damage_received()  lib/units/civilians/civiliandamage.lua:42           
+         _on_damage_received()  lib/units/civilians/huskciviliandamage.lua:12       
+                    stun_hit()  lib/units/enemies/cop/copdamage.lua:1470            
+             detect_and_stun()  lib/managers/explosionmanager.lua:188               
+                   _detonate()  lib/units/weapons/grenades/concussiongrenade.lua:68  
+                                lib/units/weapons/grenades/grenadebase.lua:28       
+
+-------------------------------
+
+System information:
+	Application version : 1.94.878
+	CPU : AMD Ryzen 5 2600 Six-Core Processor (6 cores); SSE; SSE2; SSE3; SSSE3; SSE4.1
+	DirectX : 12.0 
+	GPU : NVIDIA GeForce RTX 2060 / nvldumd.dll[26.21.14.4250]
+	Language : russian
+	Memory :     16331MB 540KB
+	OS : 6.2.9200 () 0x100-0x1 (64 bits)
+	Physics : threaded
+	Renderer : DX9 threaded
+	Sound : Realtek Semiconductor Corp. (Динамики (Realtek(R) Audio))
+
+
+
+----------------------------------------------------------------------
+
+Wed Apr 29 20:58:22 2020
+
+
+Application has crashed: C++ exception
+[string "lib/managers/playermanager.lua"]:3882: attempt to index local 'equipment' (a nil value)
+
+
+
+SCRIPT STACK
+
+result_place_mission_door_device() lib/units/interactions/interactionext.lua:2363
+lib/network/handlers/unitnetworkhandler.lua:2745
+
+
+-------------------------------
+
+Callstack:
+
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     zip_get_name                                        
+                         ntdll  (???)     RtlDosSearchPath_Ustr                               
+                         ntdll  (???)     RtlFreeHeap                                         
+                         ntdll  (???)     RtlSetLastWin32Error                                
+                    KERNELBASE  (???)     CreateFileW                                         
+                    KERNELBASE  (???)     CreateFileW                                         
+                         ntdll  (???)     ZwQueryVirtualMemory                                
+                    KERNELBASE  (???)     VirtualQueryEx                                      
+                    KERNELBASE  (???)     SetUnhandledExceptionFilter                         
+         payday2_win32_release  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                      nvwgf2um  (???)     NVAPI_Thunk                                         
+                           ???  (???)     ???                                                 
+         payday2_win32_release  (???)     NvOptimusEnablement                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                     inputhost  (???)     CreateInputSystemClientConnection                   
+                           ???  (???)     ???                                                 
+
+
+-------------------------------
+
+Current thread: Main
+
+-------------------------------
+
+System information:
+	Application version : 1.94.878
+	CPU : AMD Ryzen 5 2600 Six-Core Processor (6 cores); SSE; SSE2; SSE3; SSSE3; SSE4.1
+	DirectX : 12.0 
+	GPU : NVIDIA GeForce RTX 2060 / nvldumd.dll[26.21.14.4250]
+	Language : russian
+	Memory :     16331MB 540KB
+	OS : 6.2.9200 () 0x100-0x1 (64 bits)
+	Physics : threaded
+	Renderer : DX9 threaded
+	Sound : Realtek Semiconductor Corp. (Динамики (Realtek(R) Audio))
+
+
+
+----------------------------------------------------------------------
+
+Thu Apr 30 03:21:21 2020
+
+
+Application has crashed: C++ exception
+mods\P3DHack Free\P3DHack\Button\Keyboard\Locator.luac:0: attempt to index a number value
+
+@mods\P3DHack Free\P3DHack\Button\Keyboard\Locator.luac
+
+
+SCRIPT STACK
+
+add_unit() @mods\P3DHack Free\P3DHack\Button\Keyboard\Locator.luac:0
+set_active() lib/units/interactions/interactionext.lua:557
+lib/network/handlers/unitnetworkhandler.lua:927
+
+
+-------------------------------
+
+Callstack:
+
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     zip_get_name                                        
+                         ntdll  (???)     RtlDosSearchPath_Ustr                               
+                         ntdll  (???)     RtlFreeHeap                                         
+                         ntdll  (???)     RtlSetLastWin32Error                                
+                    KERNELBASE  (???)     CreateFileW                                         
+                    KERNELBASE  (???)     CreateFileW                                         
+                         ntdll  (???)     ZwQueryVirtualMemory                                
+                    KERNELBASE  (???)     VirtualQueryEx                                      
+                    KERNELBASE  (???)     SetUnhandledExceptionFilter                         
+         payday2_win32_release  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                      nvwgf2um  (???)     NVAPI_Thunk                                         
+                           ???  (???)     ???                                                 
+         payday2_win32_release  (???)     NvOptimusEnablement                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+
+
+-------------------------------
+
+Current thread: Main
+
+-------------------------------
+
+System information:
+	Application version : 1.94.878
+	CPU : AMD Ryzen 5 2600 Six-Core Processor (6 cores); SSE; SSE2; SSE3; SSSE3; SSE4.1
+	DirectX : 12.0 
+	GPU : NVIDIA GeForce RTX 2060 / nvldumd.dll[26.21.14.4250]
+	Language : russian
+	Memory :     16331MB 540KB
+	OS : 6.2.9200 () 0x100-0x1 (64 bits)
+	Physics : threaded
+	Renderer : DX9 threaded
+	Sound : Realtek Semiconductor Corp. (Динамики (Realtek(R) Audio))
+
+
+
+----------------------------------------------------------------------
+
+Thu Apr 30 03:54:16 2020
+
+
+Application has crashed: access violation
+
+-------------------------------
+
+Callstack:
+
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     zip_get_name                                        
+                         ntdll  (???)     RtlDosSearchPath_Ustr                               
+                         ntdll  (???)     RtlFreeHeap                                         
+                         ntdll  (???)     RtlSetLastWin32Error                                
+                    KERNELBASE  (???)     CreateFileW                                         
+                    KERNELBASE  (???)     CreateFileW                                         
+                         ntdll  (???)     ZwQueryVirtualMemory                                
+                    KERNELBASE  (???)     VirtualQueryEx                                      
+                    KERNELBASE  (???)     SetUnhandledExceptionFilter                         
+         payday2_win32_release  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                      nvwgf2um  (???)     NVAPI_Thunk                                         
+
+
+-------------------------------
+
+Current thread: Main
+Script stack:
+                InteractType()  @mods/P3DHack                                       
+                                Free/P3DHack/Init.luac:0                            
+                 @mods\P3DHack                                                      
+Free\P3DHack\Button\NumPad\KillAll.luac:0  dofile()                                            
+                                =[C]                                                
+                     Execute()                                                      
+@mods/base/req/BLTKeybindsManager.lua:122  update()                                            
+                                @mods/base/req/BLTKeybindsManager.lua:263           
+                        func()                                                      
+@mods/base/req/BLTKeybindsManager.lua:276  Call()                                              
+                                @mods/base/req/core/Hooks.lua:109                   
+                 _gameUpdate()                                                      
+@mods/base/lua/GameSetup.lua:6  update()                                            
+                                @mods\P3DHack                                       
+Free\P3DHack\Button\Keyboard\XRay.luac:0  update()                                            
+lib/setups/networkgamesetup.lua:21  ()                                                  
+core/lib/setups/coresetup.lua:557                                                      
+                 @mods/P3DHack  Free/P3DHack/Tools/zaloop.luac:0                    
+
+-------------------------------
+
+System information:
+	Application version : 1.94.878
+	CPU : AMD Ryzen 5 2600 Six-Core Processor (6 cores); SSE; SSE2; SSE3; SSSE3; SSE4.1
+	DirectX : 12.0 
+	GPU : NVIDIA GeForce RTX 2060 / nvldumd.dll[26.21.14.4250]
+	Language : russian
+	Memory :     16331MB 540KB
+	OS : 6.2.9200 () 0x100-0x1 (64 bits)
+	Physics : threaded
+	Renderer : DX9 threaded
+	Sound : Realtek Semiconductor Corp. (Динамики (Realtek(R) Audio))
+
+
+
+----------------------------------------------------------------------
+
+Thu Apr 30 04:22:52 2020
+
+
+Application has crashed: access violation
+
+-------------------------------
+
+Callstack:
+
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     zip_get_name                                        
+                         ntdll  (???)     RtlDosSearchPath_Ustr                               
+                         ntdll  (???)     RtlFreeHeap                                         
+                         ntdll  (???)     RtlSetLastWin32Error                                
+                    KERNELBASE  (???)     CreateFileW                                         
+                    KERNELBASE  (???)     CreateFileW                                         
+                         ntdll  (???)     ZwQueryVirtualMemory                                
+                    KERNELBASE  (???)     VirtualQueryEx                                      
+                    KERNELBASE  (???)     SetUnhandledExceptionFilter                         
+         payday2_win32_release  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                      nvwgf2um  (???)     NVAPI_Thunk                                         
+
+
+-------------------------------
+
+Current thread: Main
+Script stack:
+                InteractType()  @mods/P3DHack                                       
+                                Free/P3DHack/Init.luac:0                            
+                 @mods\P3DHack                                                      
+Free\P3DHack\Button\NumPad\KillAll.luac:0  dofile()                                            
+                                =[C]                                                
+                     Execute()                                                      
+@mods/base/req/BLTKeybindsManager.lua:122  update()                                            
+                                @mods/base/req/BLTKeybindsManager.lua:263           
+                        func()                                                      
+@mods/base/req/BLTKeybindsManager.lua:276  Call()                                              
+                                @mods/base/req/core/Hooks.lua:109                   
+                 _gameUpdate()                                                      
+@mods/base/lua/GameSetup.lua:6  update()                                            
+                                @mods\P3DHack                                       
+Free\P3DHack\Button\Keyboard\XRay.luac:0  update()                                            
+lib/setups/networkgamesetup.lua:21  ()                                                  
+core/lib/setups/coresetup.lua:557                                                      
+                 @mods/P3DHack  Free/P3DHack/Tools/zaloop.luac:0                    
+
+-------------------------------
+
+System information:
+	Application version : 1.94.878
+	CPU : AMD Ryzen 5 2600 Six-Core Processor (6 cores); SSE; SSE2; SSE3; SSSE3; SSE4.1
+	DirectX : 12.0 
+	GPU : NVIDIA GeForce RTX 2060 / nvldumd.dll[26.21.14.4250]
+	Language : russian
+	Memory :     16331MB 540KB
+	OS : 6.2.9200 () 0x100-0x1 (64 bits)
+	Physics : threaded
+	Renderer : DX9 threaded
+	Sound : Realtek Semiconductor Corp. (Динамики (Realtek(R) Audio))
+
+
+
