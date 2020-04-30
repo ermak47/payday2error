@@ -1,0 +1,79 @@
+Application has crashed: access violation
+
+-------------------------------
+
+Callstack:
+
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     ???                                                 
+         payday2_win32_release  (???)     zip_get_name                                        
+                         ntdll  (???)     RtlDosSearchPath_Ustr                               
+                         ntdll  (???)     RtlFreeHeap                                         
+                         ntdll  (???)     RtlSetLastWin32Error                                
+                    KERNELBASE  (???)     CreateFileW                                         
+                    KERNELBASE  (???)     CreateFileW                                         
+                         ntdll  (???)     ZwQueryVirtualMemory                                
+                    KERNELBASE  (???)     VirtualQueryEx                                      
+                    KERNELBASE  (???)     SetUnhandledExceptionFilter                         
+         payday2_win32_release  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                           ???  (???)     ???                                                 
+                      nvwgf2um  (???)     NVAPI_Thunk                                         
+
+
+-------------------------------
+
+Current thread: Main
+Script stack:
+                InteractType()  @mods/P3DHack                                       
+                                Free/P3DHack/Init.luac:0                            
+                 @mods\P3DHack                                                      
+Free\P3DHack\Button\NumPad\KillAll.luac:0  dofile()                                            
+                                =[C]                                                
+                     Execute()                                                      
+@mods/base/req/BLTKeybindsManager.lua:122  update()                                            
+                                @mods/base/req/BLTKeybindsManager.lua:263           
+                        func()                                                      
+@mods/base/req/BLTKeybindsManager.lua:276  Call()                                              
+                                @mods/base/req/core/Hooks.lua:109                   
+                 _gameUpdate()                                                      
+@mods/base/lua/GameSetup.lua:6  update()                                            
+                                @mods\P3DHack                                       
+Free\P3DHack\Button\Keyboard\XRay.luac:0  update()                                            
+lib/setups/networkgamesetup.lua:21  ()                                                  
+core/lib/setups/coresetup.lua:557                                                      
+                 @mods/P3DHack  Free/P3DHack/Tools/zaloop.luac:0                    
+
+-------------------------------
+
+System information:
+	Application version : 1.94.878
+	CPU : AMD Ryzen 5 2600 Six-Core Processor (6 cores); SSE; SSE2; SSE3; SSSE3; SSE4.1
+	DirectX : 12.0 
+	GPU : NVIDIA GeForce RTX 2060 / nvldumd.dll[26.21.14.4250]
+	Language : russian
+	Memory :     16331MB 540KB
+	OS : 6.2.9200 () 0x100-0x1 (64 bits)
+	Physics : threaded
+	Renderer : DX9 threaded
+	Sound : Realtek Semiconductor Corp. (Динамики (Realtek(R) Audio))
+
